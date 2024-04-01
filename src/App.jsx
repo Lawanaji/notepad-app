@@ -1,12 +1,15 @@
 import './App.css'
-import Note from './Componant/Note'
+import Header from './Componant/Header'
+import Notes from './Componant/Notes'
 
 function App() {
 
 
   return (
-    <>
-           <Note />
+    <><div className='main'>
+      <Header />
+      <Notes />
+  </div>
     </>
   )
 }
